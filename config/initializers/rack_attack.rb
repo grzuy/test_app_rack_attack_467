@@ -1,6 +1,6 @@
 class Rack::Attack
   # Ignore in development and test environments
-  return unless Rails.env.production?
+  # return unless Rails.env.production?
 
   # Blacklist
   # This IP was by extremely aggressive scraper
